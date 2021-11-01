@@ -1,0 +1,43 @@
+.form {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+  }
+  
+  .form * {
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  
+  .formTitle {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  .formItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formItem > * {
+    align-self: flex-start;
+  }
+  
+  .formInput {
+    -webkit-appearance: none;
+  
+    width: 100%;
+    max-width: 425px;
+  
+    /* Fix for Safari/iOS date fields */
+    min-height: calc(0.9em + (0.8em * 2) + 0.6em);
+  
+    padding: 0.8em;
+    font-size: 0.9em;
+    font-family: "Source Sans Pro", sans-serif;
+  
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+  }
