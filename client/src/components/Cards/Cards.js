@@ -6,8 +6,6 @@ export const Cards = ({ recipes }) => {
 
     const [filteredData, setFilteredData] = useState(recipes);
 
-    const [alert, setAlert] = useState(false)
-
     const handleFilter = (event) => {
         const searchWord = event.target.value;
         const newFilter = recipes.filter((recipe) => {

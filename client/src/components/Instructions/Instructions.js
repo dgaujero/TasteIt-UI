@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { UpdateInstructions } from '../UpdateInstructions/UpdateInstructions';
 
 export const Instructions = ({recipe }) => {
 
@@ -18,6 +19,21 @@ export const Instructions = ({recipe }) => {
         setInstructions(newArr)
     }
 
+    const handleEdit = (event, index) => {
+        event.preventDefault()
+
+        const input = event.target.value;
+
+        const newArr = [...instructions]
+
+        newArr[index] = input;
+
+        setInstructions(newArr)
+
+        console.log(input)
+
+    }
+
     return (
 
         <div>
@@ -31,7 +47,9 @@ export const Instructions = ({recipe }) => {
                     <Modal.Title>Instructions</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+
                     <ul>
+
                         {instructions.map((inst, index) => {
                             return(
                                     <li key={index}>
@@ -44,14 +62,15 @@ export const Instructions = ({recipe }) => {
                                     </li>
                             )
                         })}
+
                     </ul>
+
+                    <UpdateInstructions instructions={instructions} handleEdit={handleEdit}/>
+
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close
-                    </Button>
-                    <Button variant="secondary">
-                        Add Instruction
                     </Button>
                 </Modal.Footer>
             </Modal>
