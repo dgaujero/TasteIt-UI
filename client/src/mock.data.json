@@ -1,50 +1,295 @@
 [
-    {
-      "id": 1,
-      "name": "Chicken Cacciatore",
-      "description": "Authentic Chicken Cacciatore is an Italian classic, and you’ll never get a more succulent home cooked meal than this recipe! Easy to make and loved by the entire family, Cacciatore aromas fill your entire house with comfort and warmth as it cooks itself on the stove or in the oven!",
-      "datePublished": "2021-10-11",
-      "ingredients": [
-          "chicken",
-          "tomato",
-          "bell pepper",
-          "onion",
-          "mushroom",
-          "garlic",
-          "white wine"
-      ],
-      "servingSize": 4,
-      "prepTime": "1 hour",
-      "cookTime": "8 hours",
-      "instructions": [
-          "Season chicken with salt and pepper.",
-          "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
-          "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften."
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Beef Stew",
-      "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully.",
-      "datePublished": "2021-10-11",
-      "ingredients": [
-          "chicken",
-          "tomato",
-          "bell pepper",
-          "onion",
-          "mushroom",
-          "garlic",
-          "white wine"
-      ],
-      "servingSize": 4,
-      "prepTime": "1 hour",
-      "cookTime": "8 hours",
-      "instructions": [
-          "Season chicken with salt and pepper.",
-          "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
-          "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften."
-      ]
-    }
-  ]
-  
-  
+  {
+    "id": 1,
+    "name": "Chicken Cacciatore",
+    "description": "Authentic Chicken Cacciatore is an Italian classic, and you’ll never get a more succulent home cooked meal than this recipe! Easy to make and loved by the entire family, Cacciatore aromas fill your entire house with comfort and warmth as it cooks itself on the stove or in the oven!",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "3 tablespoons olive oil, divided",
+        "6 bone-in skinless chicken thighs",
+        "Salt and pepper, to season",
+        "1 medium onion, diced",
+        "2 tablespoons minced garlic, (or 6 cloves)",
+        "1 small yellow bell pepper (capsicum), diced",
+        "1 small red bell pepper (capsicum), diced",
+        "1 large carrot, peeled and sliced",
+        "10 oz (300g) mushrooms, sliced",
+        "1/2 cup pitted black olives",
+        "8 sprigs thyme",
+        "2 tablespoons each freshly chopped parsley and basil plus more to garnish",
+        "1 teaspoon dried oregano",
+        "150 ml red wine",
+        "28 oz (820g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "7 oz (200g) Roma tomatoes, halved",
+        "1/2 teaspoon red pepper flakes"
+    ],
+    "servingSize": 4,
+    "prepTime": "20 minutes",
+    "cookTime": "7 hours",
+    "instructions": [
+        "Season chicken with salt and pepper.",
+        "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
+        "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften.",
+        "Pour in the wine, scraping up browned bits from the bottom of the skillet. Cook until wine is reduced, about 2 minutes.",
+        "Add crushed tomatoes, tomato paste, Roma tomatoes and chill flakes. Season with salt and pepper to your tastes. Return chicken pieces to the skillet and continue to cook over stove top OR in the oven following the instructions below."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Beef Stew",
+    "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully.",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "1 tbsp. vegetable oil",
+        "2 lb. beef chuck stew meat, cubed into 1in. pieces",
+        "1 tbsp. extra-virgin olive oil",
+        "1 onion, chopped",
+        "2 carrots, peeled and cut into rounds",
+        "2 stalks celery, chopped",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "3 cloves garlic, minced",
+        "1/4 c. tomato paste",
+        "6 c. low-sodium beef broth",
+        "1 c. red wine",
+        "tbsp. Worcestershire sauce",
+        "1 tsp. dried or fresh thyme leaves",
+        "2 bay leaves",
+        "1 lb. baby potatoes, halved",
+        "1 c. frozen peas",
+        "1/4 c. freshly chopped parsley, for garnish"
+    ],
+    "servingSize": 4,
+    "prepTime": "15 minutes",
+    "cookTime": "1 hour 40 mins",
+    "instructions": [
+        "In a large dutch oven or heavy-bottomed pot over medium heat, heat oil. Add beef and cook until seared on all sides, 10 minutes, working in batches if necessary. Transfer beef to a plate.",
+        "In the same pot, cook onion, carrots, and celery until soft, 5 minutes. Season with salt and pepper. Add garlic and tomato paste and cook until garlic is fragrant and tomato paste has darkened, 2 minutes.",
+        "Add beef back to dutch oven then add broth, wine, Worcestershire sauce, thyme, and bay leaves. ",
+        "Bring to a boil then reduce heat to a simmer. Season with salt and pepper. Cover and let simmer until beef is tender, 30 to 45 minutes.",
+        "Add potatoes and simmer, covered, until potatoes are tender, 15 minutes. ",
+        "Remove bay leaves. Stir in peas and cook until warmed through, 2 minutes. Season stew to taste with salt and pepper, then ladle into serving bowls and garish with parsley. "
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Glazed Pork Chop",
+    "description": "Authentic Chicken Cacciatore is an Italian classic, and you’ll never get a more succulent home cooked meal than this recipe! Easy to make and loved by the entire family, Cacciatore aromas fill your entire house with comfort and warmth as it cooks itself on the stove or in the oven!",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "3 tablespoons olive oil, divided",
+        "6 bone-in skinless chicken thighs",
+        "Salt and pepper, to season",
+        "1 medium onion, diced",
+        "2 tablespoons minced garlic, (or 6 cloves)",
+        "1 small yellow bell pepper (capsicum), diced",
+        "1 small red bell pepper (capsicum), diced",
+        "1 large carrot, peeled and sliced",
+        "10 oz (300g) mushrooms, sliced",
+        "1/2 cup pitted black olives",
+        "8 sprigs thyme",
+        "2 tablespoons each freshly chopped parsley and basil plus more to garnish",
+        "1 teaspoon dried oregano",
+        "150 ml red wine",
+        "28 oz (820g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "7 oz (200g) Roma tomatoes, halved",
+        "1/2 teaspoon red pepper flakes"
+    ],
+    "servingSize": 4,
+    "prepTime": "20 minutes",
+    "cookTime": "7 hours",
+    "instructions": [
+        "Season chicken with salt and pepper.",
+        "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
+        "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften.",
+        "Pour in the wine, scraping up browned bits from the bottom of the skillet. Cook until wine is reduced, about 2 minutes.",
+        "Add crushed tomatoes, tomato paste, Roma tomatoes and chill flakes. Season with salt and pepper to your tastes. Return chicken pieces to the skillet and continue to cook over stove top OR in the oven following the instructions below."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Carne Asada",
+    "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully.",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "1 tbsp. vegetable oil",
+        "2 lb. beef chuck stew meat, cubed into 1in. pieces",
+        "1 tbsp. extra-virgin olive oil",
+        "1 onion, chopped",
+        "2 carrots, peeled and cut into rounds",
+        "2 stalks celery, chopped",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "3 cloves garlic, minced",
+        "1/4 c. tomato paste",
+        "6 c. low-sodium beef broth",
+        "1 c. red wine",
+        "tbsp. Worcestershire sauce",
+        "1 tsp. dried or fresh thyme leaves",
+        "2 bay leaves",
+        "1 lb. baby potatoes, halved",
+        "1 c. frozen peas",
+        "1/4 c. freshly chopped parsley, for garnish"
+    ],
+    "servingSize": 4,
+    "prepTime": "15 minutes",
+    "cookTime": "1 hour 40 mins",
+    "instructions": [
+        "In a large dutch oven or heavy-bottomed pot over medium heat, heat oil. Add beef and cook until seared on all sides, 10 minutes, working in batches if necessary. Transfer beef to a plate.",
+        "In the same pot, cook onion, carrots, and celery until soft, 5 minutes. Season with salt and pepper. Add garlic and tomato paste and cook until garlic is fragrant and tomato paste has darkened, 2 minutes.",
+        "Add beef back to dutch oven then add broth, wine, Worcestershire sauce, thyme, and bay leaves. ",
+        "Bring to a boil then reduce heat to a simmer. Season with salt and pepper. Cover and let simmer until beef is tender, 30 to 45 minutes.",
+        "Add potatoes and simmer, covered, until potatoes are tender, 15 minutes. ",
+        "Remove bay leaves. Stir in peas and cook until warmed through, 2 minutes. Season stew to taste with salt and pepper, then ladle into serving bowls and garish with parsley. "
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Taco Soup",
+    "description": "Authentic Chicken Cacciatore is an Italian classic, and you’ll never get a more succulent home cooked meal than this recipe! Easy to make and loved by the entire family, Cacciatore aromas fill your entire house with comfort and warmth as it cooks itself on the stove or in the oven!",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "3 tablespoons olive oil, divided",
+        "6 bone-in skinless chicken thighs",
+        "Salt and pepper, to season",
+        "1 medium onion, diced",
+        "2 tablespoons minced garlic, (or 6 cloves)",
+        "1 small yellow bell pepper (capsicum), diced",
+        "1 small red bell pepper (capsicum), diced",
+        "1 large carrot, peeled and sliced",
+        "10 oz (300g) mushrooms, sliced",
+        "1/2 cup pitted black olives",
+        "8 sprigs thyme",
+        "2 tablespoons each freshly chopped parsley and basil plus more to garnish",
+        "1 teaspoon dried oregano",
+        "150 ml red wine",
+        "28 oz (820g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "7 oz (200g) Roma tomatoes, halved",
+        "1/2 teaspoon red pepper flakes"
+    ],
+    "servingSize": 4,
+    "prepTime": "20 minutes",
+    "cookTime": "7 hours",
+    "instructions": [
+        "Season chicken with salt and pepper.",
+        "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
+        "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften.",
+        "Pour in the wine, scraping up browned bits from the bottom of the skillet. Cook until wine is reduced, about 2 minutes.",
+        "Add crushed tomatoes, tomato paste, Roma tomatoes and chill flakes. Season with salt and pepper to your tastes. Return chicken pieces to the skillet and continue to cook over stove top OR in the oven following the instructions below."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mac and Cheese",
+    "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully.",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "1 tbsp. vegetable oil",
+        "2 lb. beef chuck stew meat, cubed into 1in. pieces",
+        "1 tbsp. extra-virgin olive oil",
+        "1 onion, chopped",
+        "2 carrots, peeled and cut into rounds",
+        "2 stalks celery, chopped",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "3 cloves garlic, minced",
+        "1/4 c. tomato paste",
+        "6 c. low-sodium beef broth",
+        "1 c. red wine",
+        "tbsp. Worcestershire sauce",
+        "1 tsp. dried or fresh thyme leaves",
+        "2 bay leaves",
+        "1 lb. baby potatoes, halved",
+        "1 c. frozen peas",
+        "1/4 c. freshly chopped parsley, for garnish"
+    ],
+    "servingSize": 4,
+    "prepTime": "15 minutes",
+    "cookTime": "1 hour 40 mins",
+    "instructions": [
+        "In a large dutch oven or heavy-bottomed pot over medium heat, heat oil. Add beef and cook until seared on all sides, 10 minutes, working in batches if necessary. Transfer beef to a plate.",
+        "In the same pot, cook onion, carrots, and celery until soft, 5 minutes. Season with salt and pepper. Add garlic and tomato paste and cook until garlic is fragrant and tomato paste has darkened, 2 minutes.",
+        "Add beef back to dutch oven then add broth, wine, Worcestershire sauce, thyme, and bay leaves. ",
+        "Bring to a boil then reduce heat to a simmer. Season with salt and pepper. Cover and let simmer until beef is tender, 30 to 45 minutes.",
+        "Add potatoes and simmer, covered, until potatoes are tender, 15 minutes. ",
+        "Remove bay leaves. Stir in peas and cook until warmed through, 2 minutes. Season stew to taste with salt and pepper, then ladle into serving bowls and garish with parsley. "
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Coconut Curry",
+    "description": "Authentic Chicken Cacciatore is an Italian classic, and you’ll never get a more succulent home cooked meal than this recipe! Easy to make and loved by the entire family, Cacciatore aromas fill your entire house with comfort and warmth as it cooks itself on the stove or in the oven!",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "3 tablespoons olive oil, divided",
+        "6 bone-in skinless chicken thighs",
+        "Salt and pepper, to season",
+        "1 medium onion, diced",
+        "2 tablespoons minced garlic, (or 6 cloves)",
+        "1 small yellow bell pepper (capsicum), diced",
+        "1 small red bell pepper (capsicum), diced",
+        "1 large carrot, peeled and sliced",
+        "10 oz (300g) mushrooms, sliced",
+        "1/2 cup pitted black olives",
+        "8 sprigs thyme",
+        "2 tablespoons each freshly chopped parsley and basil plus more to garnish",
+        "1 teaspoon dried oregano",
+        "150 ml red wine",
+        "28 oz (820g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "7 oz (200g) Roma tomatoes, halved",
+        "1/2 teaspoon red pepper flakes"
+    ],
+    "servingSize": 4,
+    "prepTime": "20 minutes",
+    "cookTime": "7 hours",
+    "instructions": [
+        "Season chicken with salt and pepper.",
+        "Heat 2 tablespoons oil in a heavy cast iron skillet. Sear chicken on both sides until golden, about 3-4 minutes each side. Remove from skillet and set aside.",
+        "Add remaining oil to the pan. Sauté the onion until transparent, about 3-4 minutes. Add in garlic and cook until fragrant, about 30 seconds. Add the peppers, carrot, mushrooms and herbs; cook for 5 minutes until vegetables begin to soften.",
+        "Pour in the wine, scraping up browned bits from the bottom of the skillet. Cook until wine is reduced, about 2 minutes.",
+        "Add crushed tomatoes, tomato paste, Roma tomatoes and chill flakes. Season with salt and pepper to your tastes. Return chicken pieces to the skillet and continue to cook over stove top OR in the oven following the instructions below."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Baked Gnocci",
+    "description": "This classic stick-to-your-ribs stew is the ideal project for a chilly weekend. Beef, onion, carrots, potatoes and red wine come together in cozy harmony. If you are feeding a crowd, good news: It doubles (or triples) beautifully.",
+    "datePublished": "2021-10-11",
+    "ingredients": [
+        "1 tbsp. vegetable oil",
+        "2 lb. beef chuck stew meat, cubed into 1in. pieces",
+        "1 tbsp. extra-virgin olive oil",
+        "1 onion, chopped",
+        "2 carrots, peeled and cut into rounds",
+        "2 stalks celery, chopped",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "3 cloves garlic, minced",
+        "1/4 c. tomato paste",
+        "6 c. low-sodium beef broth",
+        "1 c. red wine",
+        "tbsp. Worcestershire sauce",
+        "1 tsp. dried or fresh thyme leaves",
+        "2 bay leaves",
+        "1 lb. baby potatoes, halved",
+        "1 c. frozen peas",
+        "1/4 c. freshly chopped parsley, for garnish"
+    ],
+    "servingSize": 4,
+    "prepTime": "15 minutes",
+    "cookTime": "1 hour 40 mins",
+    "instructions": [
+        "In a large dutch oven or heavy-bottomed pot over medium heat, heat oil. Add beef and cook until seared on all sides, 10 minutes, working in batches if necessary. Transfer beef to a plate.",
+        "In the same pot, cook onion, carrots, and celery until soft, 5 minutes. Season with salt and pepper. Add garlic and tomato paste and cook until garlic is fragrant and tomato paste has darkened, 2 minutes.",
+        "Add beef back to dutch oven then add broth, wine, Worcestershire sauce, thyme, and bay leaves. ",
+        "Bring to a boil then reduce heat to a simmer. Season with salt and pepper. Cover and let simmer until beef is tender, 30 to 45 minutes.",
+        "Add potatoes and simmer, covered, until potatoes are tender, 15 minutes. ",
+        "Remove bay leaves. Stir in peas and cook until warmed through, 2 minutes. Season stew to taste with salt and pepper, then ladle into serving bowls and garish with parsley. "
+    ]
+  }
+]
+

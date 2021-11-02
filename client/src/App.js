@@ -2,7 +2,7 @@ import './App.css';
 import { Main } from './components/Main/Main';
 import { Navbar } from './components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {useEffect} from 'react'
+import React from 'react'
 
 function App() {
   return (

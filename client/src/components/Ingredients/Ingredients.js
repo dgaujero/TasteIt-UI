@@ -2,12 +2,23 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-export const Ingredients = ({recipe}) => {
+export const Ingredients = ({ recipe }) => {
 
     const [show, setShow] = useState(false);
 
+    const [ingredients, setIngredients] = useState(recipe.ingredients)
+
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const removeIngr = index => {
+        console.log(index, 'index of instruction')
+        let newArr = [...ingredients]
+        let deletedInst = newArr.splice(index, 1)
+        console.log(deletedInst)
+        setIngredients(newArr)
+    }
+
 
     return (
 
@@ -22,15 +33,20 @@ export const Ingredients = ({recipe}) => {
                     <Modal.Title>Ingredients</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    {recipe.ingredients.map((ingr) => {
-                        return(
-                            <ul>
-                                <li>{ingr}</li>
-                                <button>Edit</button>
-                                <button>Remove</button>
-                            </ul>
-                        )
-                    })}
+                    <ul>
+                        {ingredients.map((ingr, index) => {
+                            return (
+                                <li key={index}>
+                                    {ingr}
+                                    <button
+                                        onClick={() => {
+                                            removeIngr(index)
+                                        }}
+                                    >Remove</button>
+                                </li>
+                            )
+                        })}
+                    </ul>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
