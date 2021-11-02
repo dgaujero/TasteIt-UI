@@ -1,6 +1,8 @@
 import './App.css';
 import { Main } from './components/Main/Main';
 import { Navbar } from './components/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React, {useEffect} from 'react'
 
 function App() {
   return (
@@ -10,5 +12,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

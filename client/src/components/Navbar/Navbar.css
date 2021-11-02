@@ -1,7 +1,7 @@
 .navWrapper {
     width: 100%;
-    background-color: yellow;
-    color: black;
+    background-color: #0e6efd;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;

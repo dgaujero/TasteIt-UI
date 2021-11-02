@@ -1,0 +1,22 @@
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input input{
+    height: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    border: 2px solid #0e6efd;
+}
+
+.cardWrapper {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+}
+
