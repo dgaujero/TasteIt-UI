@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { UpdateInstructions } from '../UpdateInstructions/UpdateInstructions';
 
-export const Instructions = ({recipe }) => {
+export const Instructions = ({ recipe }) => {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

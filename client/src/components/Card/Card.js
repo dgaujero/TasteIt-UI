@@ -6,7 +6,7 @@ import { Instructions } from '../Instructions/Instructions';
 
 import './Card.css'
 
-export const Card = ({ recipe, removeRecipe, index, handleConfirmation }) => {
+export const Card = ({ recipe, index, handleConfirmation }) => {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -53,8 +53,8 @@ export const Card = ({ recipe, removeRecipe, index, handleConfirmation }) => {
                     <Button variant="primary" size="sm" onClick={handleShow}>
                         View Details
                     </Button>
-                    <h2 className='cardTitle'>{recipe.name}</h2>
                 </div>
+                <h2 className='cardTitle'>{recipe.name}</h2>
                 <p className='cardDescription'>{recipe.description}</p>
                 <div className='cardDisplay'>
                     <Instructions recipe={recipe} />

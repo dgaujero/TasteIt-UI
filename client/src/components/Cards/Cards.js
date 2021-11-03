@@ -32,7 +32,7 @@ export const Cards = ({ recipes }) => {
     }
 
     return (
-        <div>
+        <div className='cardsSection'>
 
             <div className='input'>
                 <input

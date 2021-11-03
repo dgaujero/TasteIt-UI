@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import data from '../../mock.data.json'
 import { Cards } from '../Cards/Cards';
 import { NewRecipe } from '../NewRecipe/NewRecipe';
-
+import './Main.css'
 
 export const Main = () => {
 
@@ -14,9 +14,15 @@ export const Main = () => {
         name: '',
         description: '',
         datePublished: '',
-        ingredients: '',
+        cookTime: '',
         servingSize: '',
-        instructions: ''
+        prepTime: '',
+        instructions: [
+            "Boil water"
+        ],
+        ingredients:[
+            "chicken"
+        ]
     });
 
     const handleAddFormChange = (event) => {
@@ -38,37 +44,40 @@ export const Main = () => {
 
         const newRecipe = {
             id: Math.floor(Math.random() * 1000),
-            firstName: addFormData.firstName,
             name: addFormData.name,
             description: addFormData.description,
             datePublished: addFormData.datePublished,
-            ingredients: addFormData.ingredients,
             servingSize: addFormData.servingSize,
-            instructions: addFormData.instructions
+            prepTime: addFormData.prepTime,
+            cookTime: addFormData.cookTime,
+            instructions: [addFormData.instructions],
+            ingredients: [addFormData.ingredients],
         }
 
         const newRecipes = [...recipes, newRecipe]
 
         setRecipes(newRecipes)
-
+        console.log(recipes)
         setModalOpen(false)
     }
 
     return (
         <div>
-            <button
-                className='cardBTN'
-                onClick={() => {
-                    setModalOpen(true)
-                }}
-            >Add New Recipe</button>
+            <div className='main'>
+                <button
+                    className='cardBTN'
+                    onClick={() => {
+                        setModalOpen(true)
+                    }}
+                >Add New Recipe</button>
 
-            {modalOpen && <NewRecipe
-                setModalOpen={setModalOpen}
-                handleAddFormChange={handleAddFormChange}
-                handleAddFormSubmit={handleAddFormSubmit}
-            />}
+                {modalOpen && <NewRecipe
+                    setModalOpen={setModalOpen}
+                    handleAddFormChange={handleAddFormChange}
+                    handleAddFormSubmit={handleAddFormSubmit}
+                />}
 
+            </div>
             <Cards recipes={recipes} />
         </div>
     )

@@ -2,6 +2,7 @@ import React from 'react'
 import './NewRecipe.css'
 
 export const NewRecipe = ({ setModalOpen, handleAddFormChange, handleAddFormSubmit }) => {
+
     return (
         <div>
             <form onSubmit={handleAddFormSubmit} className='form'>
@@ -22,7 +23,6 @@ export const NewRecipe = ({ setModalOpen, handleAddFormChange, handleAddFormSubm
                     placeholder='Description'
                     onChange={handleAddFormChange}
                 ></input>
-                <p>Please Select Date</p>
                 <input
                     className='formInput'
                     type="date"
@@ -34,9 +34,17 @@ export const NewRecipe = ({ setModalOpen, handleAddFormChange, handleAddFormSubm
                 <input
                     className='formItem formInput'
                     type='text'
-                    name='ingredients'
+                    name='prepTime'
                     required='required'
-                    placeholder='Ingredients'
+                    placeholder='Prep Time'
+                    onChange={handleAddFormChange}
+                ></input>
+                <input
+                    className='formItem formInput'
+                    type='text'
+                    name='cookTime'
+                    required='required'
+                    placeholder='Cooking Time'
                     onChange={handleAddFormChange}
                 ></input>
                 <input
@@ -47,18 +55,12 @@ export const NewRecipe = ({ setModalOpen, handleAddFormChange, handleAddFormSubm
                     placeholder='Serving Size'
                     onChange={handleAddFormChange}
                 ></input>
-                <input
-                    className='formItem formInput'
-                    type='text'
-                    name='instructions'
-                    required='required'
-                    placeholder='Instructions'
-                    onChange={handleAddFormChange}
-                ></input>
                 <button
+                    className='cardBTN'
                     type='submit'
                 >Add</button>
                 <button
+                    className='cardBTN'
                     onClick={() => { setModalOpen(false) }}
                 >Close</button>
             </form>
