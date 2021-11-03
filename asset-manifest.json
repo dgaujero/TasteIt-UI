@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TasteIt-UI/static/css/main.2ec49d21.chunk.css",
+    "main.js": "/TasteIt-UI/static/js/main.6d2c187f.chunk.js",
+    "main.js.map": "/TasteIt-UI/static/js/main.6d2c187f.chunk.js.map",
+    "runtime-main.js": "/TasteIt-UI/static/js/runtime-main.3d99e203.js",
+    "runtime-main.js.map": "/TasteIt-UI/static/js/runtime-main.3d99e203.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/TasteIt-UI/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.6e2d368c.chunk.js": "/TasteIt-UI/static/js/2.6e2d368c.chunk.js",
+    "static/js/2.6e2d368c.chunk.js.map": "/TasteIt-UI/static/js/2.6e2d368c.chunk.js.map",
+    "static/js/3.7747feed.chunk.js": "/TasteIt-UI/static/js/3.7747feed.chunk.js",
+    "static/js/3.7747feed.chunk.js.map": "/TasteIt-UI/static/js/3.7747feed.chunk.js.map",
+    "index.html": "/TasteIt-UI/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/TasteIt-UI/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.2ec49d21.chunk.css.map": "/TasteIt-UI/static/css/main.2ec49d21.chunk.css.map",
+    "static/js/2.6e2d368c.chunk.js.LICENSE.txt": "/TasteIt-UI/static/js/2.6e2d368c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d99e203.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.6e2d368c.chunk.js",
+    "static/css/main.2ec49d21.chunk.css",
+    "static/js/main.6d2c187f.chunk.js"
+  ]
+}
