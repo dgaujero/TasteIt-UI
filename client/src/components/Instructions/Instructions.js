@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { UpdateInstructions } from '../UpdateInstructions/UpdateInstructions';
+import {AddInstructions} from '../AddInstructions/AddInstructions'
 import './Instructions.css'
 
 export const Instructions = ({ recipe }) => {
@@ -9,6 +10,8 @@ export const Instructions = ({ recipe }) => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    let fieldValue = null;
     
     const [instructions, setInstructions] = useState(recipe.instructions)
 
@@ -18,6 +21,23 @@ export const Instructions = ({ recipe }) => {
         let deletedInst = newArr.splice(index, 1)
         console.log(deletedInst)
         setInstructions(newArr)
+    }
+
+    const handleGetNewInst = (event) => {
+        event.preventDefault()
+
+        fieldValue = event.target.value;
+
+        console.log(fieldValue)
+        
+    }
+
+    const handleAddInstruction = (event) => {
+        event.preventDefault()
+
+        let newInstArr = [...instructions].concat(fieldValue)
+
+        setInstructions(newInstArr)
     }
 
     const handleEdit = (event, index) => {
@@ -32,8 +52,8 @@ export const Instructions = ({ recipe }) => {
         setInstructions(newArr)
 
         console.log(input)
-
     }
+
 
     return (
 
@@ -66,7 +86,8 @@ export const Instructions = ({ recipe }) => {
                         })}
 
                     </ul>
-                        
+                    
+                    <AddInstructions handleAddInstruction={handleAddInstruction} handleGetNewInst={handleGetNewInst}/>
                     <UpdateInstructions instructions={instructions} handleEdit={handleEdit}/>
 
                 </Modal.Body>

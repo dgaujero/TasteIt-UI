@@ -2,15 +2,17 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import './Ingredients.css'
+import { AddIngredient } from '../AddIngredient/AddIngredient';
 
 export const Ingredients = ({ recipe }) => {
 
     const [show, setShow] = useState(false);
-
-    const [ingredients, setIngredients] = useState(recipe.ingredients)
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    let fieldValue = null;
+
+    const [ingredients, setIngredients] = useState(recipe.ingredients)
 
     const removeIngr = index => {
         console.log(index, 'index of instruction')
@@ -18,6 +20,23 @@ export const Ingredients = ({ recipe }) => {
         let deletedInst = newArr.splice(index, 1)
         console.log(deletedInst)
         setIngredients(newArr)
+    }
+
+    const handleGetNewIngr = (event) => {
+        event.preventDefault()
+
+        fieldValue = event.target.value;
+
+        console.log(fieldValue)
+        
+    }
+
+    const handleAddIngredient = (event) => {
+        event.preventDefault()
+
+        let newInstArr = [...ingredients].concat(fieldValue)
+
+        setIngredients(newInstArr)
     }
 
 
@@ -49,6 +68,7 @@ export const Ingredients = ({ recipe }) => {
                             )
                         })}
                     </ul>
+                    <AddIngredient handleGetNewIngr={handleGetNewIngr} handleAddIngredient={handleAddIngredient}/>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>

@@ -17,12 +17,8 @@ export const Main = () => {
         cookTime: '',
         servingSize: '',
         prepTime: '',
-        instructions: [
-            "Boil water"
-        ],
-        ingredients:[
-            "chicken"
-        ]
+        instructions: [],
+        ingredients:[]
     });
 
     const handleAddFormChange = (event) => {

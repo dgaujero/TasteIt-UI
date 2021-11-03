@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import './AddInstructions.css'
+import './AddIngredient.css'
 
-export const AddInstructions = ({ handleAddInstruction, handleGetNewInst}) => {
+export const AddIngredient = ({ handleAddIngredient, handleGetNewIngr}) => {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -13,7 +13,7 @@ export const AddInstructions = ({ handleAddInstruction, handleGetNewInst}) => {
         <div>
 
             <Button variant="primary" onClick={handleShow}>
-                Add Instructions
+                Add Ingredient
             </Button>
 
             <Modal show={show} onHide={handleClose}>
@@ -21,11 +21,11 @@ export const AddInstructions = ({ handleAddInstruction, handleGetNewInst}) => {
                     <Modal.Title>Add</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <form onSubmit={handleAddInstruction}>
+                    <form onSubmit={handleAddIngredient}>
 
                         <input
-                            name='instructions'
-                            onChange={(event) => handleGetNewInst(event)}
+                            name='ingredients'
+                            onChange={(event) => handleGetNewIngr(event)}
                         ></input>
                         <button
                             type='submit'
