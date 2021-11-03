@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import './Ingredients.css'
 
 export const Ingredients = ({ recipe }) => {
 
@@ -33,12 +34,13 @@ export const Ingredients = ({ recipe }) => {
                     <Modal.Title>Ingredients</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <ul>
+                    <ul className='ingrList'>
                         {ingredients.map((ingr, index) => {
                             return (
-                                <li key={index}>
+                                <li key={index} className='ingrItem'>
                                     {ingr}
                                     <button
+                                        className='ingrBTN'
                                         onClick={() => {
                                             removeIngr(index)
                                         }}

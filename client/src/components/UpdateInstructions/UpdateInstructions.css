@@ -1,3 +1,8 @@
+.updateInput{
+    width: 100%;
+    padding: .5rem;
+}
+
 .updateInput input{
     width: 100%;
 }

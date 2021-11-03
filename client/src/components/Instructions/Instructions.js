@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { UpdateInstructions } from '../UpdateInstructions/UpdateInstructions';
+import './Instructions.css'
 
 export const Instructions = ({ recipe }) => {
 
@@ -48,13 +49,14 @@ export const Instructions = ({ recipe }) => {
                 </Modal.Header>
                 <Modal.Body>
 
-                    <ul>
+                    <ul className=''>
 
                         {instructions.map((inst, index) => {
                             return(
-                                    <li key={index}>
+                                    <li key={index} className='instStyle'>
                                         {inst}
                                         <button
+                                            className='instBTN'
                                             onClick={() => {
                                                 removeInst(index)
                                             }}
@@ -64,7 +66,7 @@ export const Instructions = ({ recipe }) => {
                         })}
 
                     </ul>
-
+                        
                     <UpdateInstructions instructions={instructions} handleEdit={handleEdit}/>
 
                 </Modal.Body>

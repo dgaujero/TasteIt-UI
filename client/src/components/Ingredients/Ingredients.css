@@ -1,0 +1,22 @@
+.ingrItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border: 2px solid #0e6efd;
+}
+
+.ingrBTN{
+    background-color: transparent;
+    color: #0e6efd;
+    border: 2px solid #0e6efd;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    font-weight: bold;
+    padding: .2rem;
+}
+
+.ingrBTN:hover{
+    background-color: #0055d5;
+    color: white;
+}

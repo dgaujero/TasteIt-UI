@@ -1,3 +1,31 @@
-.instInput input{
-    height: 20px;
+ul{
+    list-style-type: none;
+}
+
+.instStyle{
+    border: 1px solid #0e6efd;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.instStyle button{
+    width: 20%;
+    margin-bottom: .4rem;
+}
+
+.instBTN{
+    background-color: transparent;
+    color: #0e6efd;
+    border: 2px solid #0e6efd;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    font-weight: bold;
+}
+
+.instBTN:hover{
+    background-color: #0055d5;
+    color: white;
 }
